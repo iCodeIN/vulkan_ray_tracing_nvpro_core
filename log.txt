@@ -1,0 +1,108 @@
+$ git clone --recursive https://github.com/nvpro-samples/nvpro_core
+Cloning into 'nvpro_core'...
+remote: Enumerating objects: 2805, done.
+remote: Counting objects: 100% (1467/1467), done.
+remote: Compressing objects: 100% (977/977), done.
+remote: Total 2805 (delta 996), reused 915 (delta 486), pack-reused 1338
+Receiving objects: 100% (2805/2805), 6.86 MiB | 5.09 MiB/s, done.
+Resolving deltas: 100% (1819/1819), done.
+Checking connectivity... done.
+Submodule 'third_party/NVTX' (https://github.com/NVIDIA/NVTX.git) registered for path 'third_party/NVTX'
+Submodule 'third_party/binaries' (https://github.com/nvpro-samples/third_party_binaries.git) registered for path 'third_party/binaries'
+Submodule 'third_party/cgltf' (https://github.com/jkuhlmann/cgltf) registered for path 'third_party/cgltf'
+Submodule 'third_party/glfw' (https://github.com/glfw/glfw) registered for path 'third_party/glfw'
+Submodule 'third_party/imgui' (https://github.com/ocornut/imgui) registered for path 'third_party/imgui'
+Submodule 'third_party/stb' (https://github.com/nothings/stb) registered for path 'third_party/stb'
+Submodule 'third_party/tinygltf' (https://github.com/syoyo/tinygltf) registered for path 'third_party/tinygltf'
+Submodule 'third_party/tinyobjloader' (https://github.com/tinyobjloader/tinyobjloader.git) registered for path 'third_party/tinyobjloader'
+Submodule 'third_party/vma' (https://github.com/GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator) registered for path 'third_party/vma'
+Submodule 'third_party/zlib' (https://github.com/madler/zlib) registered for path 'third_party/zlib'
+Cloning into 'third_party/NVTX'...
+remote: Enumerating objects: 1122, done.
+remote: Counting objects: 100% (456/456), done.
+remote: Compressing objects: 100% (248/248), done.
+remote: Total 1122 (delta 246), reused 306 (delta 143), pack-reused 666
+Receiving objects: 100% (1122/1122), 756.17 KiB | 0 bytes/s, done.
+Resolving deltas: 100% (615/615), done.
+Checking connectivity... done.
+Submodule path 'third_party/NVTX': checked out 'c09c47a73761c99084e2e912d4e4ac905c1c2500'
+Cloning into 'third_party/binaries'...
+remote: Enumerating objects: 48, done.
+remote: Counting objects: 100% (48/48), done.
+remote: Compressing objects: 100% (34/34), done.
+remote: Total 48 (delta 11), reused 36 (delta 8), pack-reused 0
+Unpacking objects: 100% (48/48), done.
+Checking connectivity... done.
+Submodule path 'third_party/binaries': checked out '31dd6e20f7ef0c34a575b27544402e58dd7cd8ba'
+Cloning into 'third_party/cgltf'...
+remote: Enumerating objects: 1085, done.
+remote: Counting objects: 100% (108/108), done.
+remote: Compressing objects: 100% (67/67), done.
+remote: Total 1085 (delta 61), reused 78 (delta 41), pack-reused 977
+Receiving objects: 100% (1085/1085), 411.62 KiB | 0 bytes/s, done.
+Resolving deltas: 100% (626/626), done.
+Checking connectivity... done.
+Submodule path 'third_party/cgltf': checked out 'c41293861b92abc7466ffc05757c61a70503845e'
+Cloning into 'third_party/glfw'...
+remote: Enumerating objects: 27828, done.
+remote: Counting objects: 100% (922/922), done.
+remote: Compressing objects: 100% (426/426), done.
+remote: Total 27828 (delta 617), reused 649 (delta 464), pack-reused 26906
+Receiving objects: 100% (27828/27828), 13.85 MiB | 5.50 MiB/s, done.
+Resolving deltas: 100% (19594/19594), done.
+Checking connectivity... done.
+Submodule path 'third_party/glfw': checked out '114776a24605418e6d719d2f30141e351e93c6e0'
+Cloning into 'third_party/imgui'...
+remote: Enumerating objects: 41740, done.
+remote: Counting objects: 100% (1021/1021), done.
+remote: Compressing objects: 100% (417/417), done.
+remote: Total 41740 (delta 777), reused 789 (delta 603), pack-reused 40719
+Receiving objects: 100% (41740/41740), 73.78 MiB | 7.96 MiB/s, done.
+Resolving deltas: 100% (31543/31543), done.
+Checking connectivity... done.
+Submodule path 'third_party/imgui': checked out '31290807dc169d4ee62b16f42bcb1d9a294be93b'
+Cloning into 'third_party/stb'...
+remote: Enumerating objects: 7844, done.
+remote: Counting objects: 100% (573/573), done.
+remote: Compressing objects: 100% (244/244), done.
+remote: Total 7844 (delta 366), reused 510 (delta 329), pack-reused 7271
+Receiving objects: 100% (7844/7844), 5.52 MiB | 2.26 MiB/s, done.
+Resolving deltas: 100% (5211/5211), done.
+Checking connectivity... done.
+Submodule path 'third_party/stb': checked out 'c9064e317699d2e495f36ba4f9ac037e88ee371a'
+Cloning into 'third_party/tinygltf'...
+remote: Enumerating objects: 4547, done.
+remote: Counting objects: 100% (102/102), done.
+remote: Compressing objects: 100% (79/79), done.
+remote: Total 4547 (delta 46), reused 56 (delta 23), pack-reused 4445
+Receiving objects: 100% (4547/4547), 19.91 MiB | 5.68 MiB/s, done.
+Resolving deltas: 100% (2473/2473), done.
+Checking connectivity... done.
+Submodule path 'third_party/tinygltf': checked out 'ce3a30e612f6c1ed9bc618927de62189097574a9'
+Cloning into 'third_party/tinyobjloader'...
+remote: Enumerating objects: 3671, done.
+remote: Counting objects: 100% (131/131), done.
+remote: Compressing objects: 100% (101/101), done.
+remote: Total 3671 (delta 61), reused 73 (delta 27), pack-reused 3540
+Receiving objects: 100% (3671/3671), 3.48 MiB | 5.23 MiB/s, done.
+Resolving deltas: 100% (2080/2080), done.
+Checking connectivity... done.
+Submodule path 'third_party/tinyobjloader': checked out '0ed6c38f20c63b996fbb9fa949569b2acb213a3d'
+Cloning into 'third_party/vma'...
+remote: Enumerating objects: 7071, done.
+remote: Counting objects: 100% (1248/1248), done.
+remote: Compressing objects: 100% (303/303), done.
+remote: Total 7071 (delta 1064), reused 1038 (delta 917), pack-reused 5823
+Receiving objects: 100% (7071/7071), 23.32 MiB | 3.38 MiB/s, done.
+Resolving deltas: 100% (5551/5551), done.
+Checking connectivity... done.
+Submodule path 'third_party/vma': checked out '6889faaaa284e7ec514e75ea74b113539021d1ad'
+Cloning into 'third_party/zlib'...
+remote: Enumerating objects: 5168, done.
+remote: Counting objects: 100% (17/17), done.
+remote: Compressing objects: 100% (14/14), done.
+remote: Total 5168 (delta 5), reused 6 (delta 3), pack-reused 5151
+Receiving objects: 100% (5168/5168), 3.68 MiB | 2.64 MiB/s, done.
+Resolving deltas: 100% (3618/3618), done.
+Checking connectivity... done.
+Submodule path 'third_party/zlib': checked out 'cacf7f1d4e3d44d871b605da3b647f07d718623f'

@@ -10,6 +10,7 @@ else()
   Message(STATUS "Processing nvpro_core files")
 endif()
 
+set(CMAKE_CXX_STANDARD 14)
 
 set(NVPWINDOW_SOURCE
   ${BASE_DIRECTORY}/nvpro_core/nvp/nvpwindow.cpp

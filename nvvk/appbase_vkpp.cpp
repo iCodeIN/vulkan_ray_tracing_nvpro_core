@@ -515,7 +515,7 @@ void nvvk::AppBase::initGUI(uint32_t subpassID)
   ImGuiH::setFonts();
 
   std::vector<vk::DescriptorPoolSize> poolSize{{vk::DescriptorType::eSampler, 1}, {vk::DescriptorType::eCombinedImageSampler, 1}};
-  vk::DescriptorPoolCreateInfo poolInfo{{}, 2, poolSize};
+  vk::DescriptorPoolCreateInfo poolInfo{{}, 2, poolSize.size(), poolSize.data()};
   m_imguiDescPool = m_device.createDescriptorPool(poolInfo);
 
   // Setup Platform/Renderer backends

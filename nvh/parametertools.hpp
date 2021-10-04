@@ -123,7 +123,7 @@ private:
       int32_t  s32;
       float    f32;
       bool     b;
-    } minmax[2] = {0, 0};
+    } minmax[2] = {};
     union
     {
       uint32_t*    u32;

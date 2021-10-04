@@ -157,7 +157,7 @@ private:
 
   std::array<std::vector<uint32_t>, 4> m_index;               // Offset index in pipeline
   std::array<nvvk::Buffer, 4>          m_buffer;              // Buffer of handles + data
-  std::array<uint32_t, 4>              m_stride{0, 0, 0, 0};  // Stride of each group
+  std::array<uint32_t, 4>              m_stride{};            // Stride of each group
   std::array<entry, 4>                 m_data;                // Local data to groups (Shader Record)
 
   uint32_t m_handleSize{0};
